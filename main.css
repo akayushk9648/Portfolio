@@ -1,0 +1,36 @@
+#particles-js {
+    
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #020a01, #020a01);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #010c00;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100% !important
+}
+.header {
+    z-index: 1;
+    text-align: center;
+    color:whitesmoke ;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+}
